@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="./images/youtube-logo.jpg" alt="youtube logo" width=100px>
+        <div class="search-microphone">
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <button><img src="./images/search.svg" alt="search icon" width="20px"></button>
+            </div>
+            <div class="microphone">
+                <button><img src="./images/microphone.svg" alt="microphone" width="20px"></button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button><img src="./images/bell.svg" alt="bell icom" width="20px"></button>
+            <button><img src="./images/user.svg" alt="profile icon" width="20px"></button>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="videos">
+            <div class="video">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/r-jQPznvkrY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>Video 1</h3>
+                <p>Citizen TV live</p>
+            </div>
+            <div class="video">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/sGAf2OpnOb4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>Video 2</h3>
+                <p>KTN TV live</p>
+            </div>
+            <div class="video">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/5ueSge4n4bs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>Video 3</h3>
+                <p>Working At Google</p>
+
+            </div>
+            <div class="video">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/uhYq27iSk9s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>Video 4</h3>
+                <p>DS and Algo</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
